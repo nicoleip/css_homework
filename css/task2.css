@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+#container{
+	width:1170px;
+	margin:auto;
+}
+header{
+	min-height: 20px;
+	background-color:#000080;
+}
+
+section{
+	min-height:300px;
+	margin-top:5px;
+}
+
+aside{
+	min-height: 300px;
+ 	width:29%;
+ 	float: left;
+	background-color: purple;
+}
+
+article{
+	min-height: 300px;
+ 	width:69%;
+ 	float: right;
+	background-color: green;
+	
+}
+
+footer{
+	min-height:20px;
+	background-color:blue;
+	margin-top:5px;
+}

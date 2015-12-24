@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+#roulette{
+	width:450px;
+	height:450px;
+	margin:auto;
+	background-image: url(../images/roulette.jpg);
+	background-repeat:no-repeat;
+	
+	
+	
+}
+
+img{
+	
+	
+	width:20px;
+	height:20px;
+	
+	left:50%;
+    position: absolute;
+    top:215px;
+    
+    transform: rotate(90deg) translateX(145px) rotate(-90deg);
+    
+     -webkit-animation: roulette 3s linear 3; /* Chrome, Safari 5 */
+       -moz-animation: roulette 3s linear 3; /* Firefox 5-15 */
+         -o-animation: roulette 3s linear 3; /* Opera 12+ */
+            animation: roulette 3s linear 3; /* Chrome, Firefox 16+, 
+                                                     IE 10+, Safari 5 */
+}
+                                                     
+@-webkit-keyframes roulette {
+	from { 	-webkit-transform: rotate(0deg) translateX(143px) rotate(0deg); }
+	to   {  -webkit-transform: rotate(360deg) translateX(143px) rotate(-360deg); }
+}
+
+@-moz-keyframes roulette {
+	from { 	-moz-transform: rotate(0deg) translateX(143px) rotate(0deg); }
+	to   {  -moz-transform: rotate(360deg) translateX(143px) rotate(-360deg); }
+}
+
+@-o-keyframes roulette {
+	from { 	-o-transform: rotate(0deg) translateX(143px) rotate(0deg); }
+	to   {  -o-transform: rotate(360deg) translateX(143px) rotate(-360deg); }
+}
+
+@keyframes roulette {
+	from { 	transform: rotate(0deg) translateX(143px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(143px) rotate(-360deg); }
+}
+	
+}

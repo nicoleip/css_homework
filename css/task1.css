@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+header{
+	min-height: 75px;
+	background-color: #4a708b;
+}
+
+article{
+ 	width: 1450px; 	
+ 	height: 150px;
+ 	background-color: green;	
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	margin-left: 70px;
+ 	margin-right: 70px;
+}
+
+
+
+#footer{
+	width: 1450px;
+	min-height: 30px;
+	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	margin-left: 70px;
+ 	margin-right:70px;
+}
+
+#left{
+	min-height: 30px;
+ 	width:48%;
+ 	float: left;
+	background-color: purple;
+}
+
+#right{
+	min-height: 30px;
+	width: 48%;
+ 	float: right;
+ 	background-color: blue;
+}

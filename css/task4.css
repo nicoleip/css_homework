@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#container{
+	width:330px;
+	height:330px;
+	margin:auto;
+	
+}
+header{
+	min-height: 65px;
+	background-color:#4a708b;
+}
+
+section{
+	min-height:200px;
+	margin-top:5px;
+}
+
+aside{
+	min-height:200px;
+ 	width:29%;
+ 	float: left;
+	background-color: #d02090;
+}
+
+article{
+	min-height:200px;
+ 	width:69%;
+ 	float: right;
+	background-color:#7fff00;
+	
+}
+
+footer{
+	min-height:65px;
+	background-color:#104e8b;
+	margin-top:5px;
+}
